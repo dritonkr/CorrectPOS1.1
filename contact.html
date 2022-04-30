@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <link rel="icon" type="image/x-icon" href="./logo/favicon.png">
+    <title>CorrectPOS</title>
+</head>
+<body>
+    <div class="hero2">
+            <div class="logo"><a href="./index.html"><img src="/logo/LOGO TR.png"></a></div>
+        <div style="box-shadow: 0px 0px 30px 4px #0fbce4; " class="nav">
+                <ul class="navlinks">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./clients.html">Clients</a></li>
+                    <li><a id="bactive" class="btnm" href="./contact.html">Contact Us</a></li>
+                </ul>
+        </div>
+        <div class="centerform" style="background-color: #121212; z-index: 0; margin-top: 2px;">
+            <div id="contact" class="kontakti">
+
+                <div class="formtext">
+                    <h1>CONTACT US NOW</h1>
+                    <p>
+                        We have a lot o of services,<br>
+                        so if you want to follow us<br>
+                        and get updated everytime,<br>
+                         plase fill this form
+        
+                    </p>
+        
+                </div>
+        
+                <div class="form">
+                    <div class="subtitle">
+                        Fill this form if you want to get notified for new products.
+                    </div>
+                    <div class="input-container ic1">
+                      <input id="firstname" class="input" type="text" placeholder=" " />
+                      <div class="cut"></div>
+                      <label for="firstname" class="placeholder">First name</label>
+                    </div>
+                    <div class="input-container ic2">
+                      <input id="lastname" class="input" type="text" placeholder=" " />
+                      <div class="cut"></div>
+                      <label for="lastname" class="placeholder">Last name</label>
+                    </div>
+                    <div class="input-container ic2">
+                      <input id="email" class="input" type="text" placeholder=" " />
+                      <div class="cut cut-short"></div>
+                      <label for="email" class="placeholder">Email</>
+                    </div>
+                    <button type="text" class="submit">SUBMIT</button>
+                  </div> 
+            </div>
+                          
+    </div>
+        </div>
+        <div class="footer">
+            <div class="ftr">
+                <p class="fus">FOLLOW US</p>
+                <p><a href="https://www.instagram.com/dritonkr_">Instagram</a></p>
+                <p><a href="https://www.facebook.com/">Facebook</a></p>
+                <p><a href="https://www.youtube.com/">Youtube</a></p>
+                <p><a href="https://twitter.com/">Twitter</a></p>
+                <p><a href="https://gmail.com/">e-Mail</a></p>
+            </div>
+            <div class="ftr">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d733.5784102220931!2d21.152270780775112!3d42.654708555029266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f7ce63b7dd9%3A0xe87e16e72beef0ee!2sibas!5e0!3m2!1sen!2s!4v1648513161683!5m2!1sen!2s"
+                width="600" height="200" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="ftr">
+                <p class="fus">DOWNLOAD</p>
+                <a href="https://www.apple.com/in/app-store/"> <img src="https://logos-download.com/wp-content/uploads/2016/06/Download_on_the_App_Store_logo.png" width="150rem"> </a>
+                <a href="https://play.google.com/store/apps"> <img src="https://en.logodownload.org/wp-content/uploads/2019/06/get-it-on-google-play-badge.png" width="150rem"> </a>
+            </div>
+        </div>
+        <div class="cpr">
+            <p>CorrectPOS by Driton Krasniqi © 2022 All rights reserved</p>
+        </div>
+
+        
+    <button onclick="topFunction()" id="topbtn" title="Go to top">^</button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topbtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>   
+</body>
+</html>
