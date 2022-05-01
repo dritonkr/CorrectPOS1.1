@@ -126,8 +126,6 @@ body {
     border: 2px solid #00ff37 !important; 
 }
 
-
-
 .text {
     padding: 4rem 3rem;
     background-color: #121212d3;
@@ -467,7 +465,7 @@ body {
   }
   
   .placeholder {
-    color: #65657b;
+    color: wheat;
     font-family: sans-serif;
     left: 20px;
     line-height: 14px;
@@ -484,11 +482,11 @@ body {
   }
   
   .input:not(:placeholder-shown) ~ .placeholder {
-    color: #808097;
+    color: wheat;
   }
   
   .input:focus ~ .placeholder {
-    color: #808097;
+    color: wheat;
   }
   
   .submit {
